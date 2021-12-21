@@ -3,9 +3,9 @@ const HomePage = function (){
     return (
         <div>
             <NavBar/>
-        <div>
-            <h1>Welcome to NASA App</h1>
-        </div>
+            <div>
+                <h1>Welcome to NASA App</h1>
+            </div>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 body{
     width: 1080px;
-    font-family: 'Exo', sans-serif;
     margin: 0 auto;
+    font-family: 'Exo', sans-serif;
     background-color: #1b173d;
     color: #FFFFFF;
 }
@@ -38,3 +38,20 @@ img{
     max-width: 1000px;
     max-height: 780px;
 }
+
+@media only screen and (max-width: 600px){
+    body{
+        width: 600px;
+    }
+
+    .pictureContainer{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    body{
+        width: 960px;
+    }
+}
+

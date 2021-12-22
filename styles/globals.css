@@ -2,21 +2,14 @@ body{
     width: 1080px;
     font-family: 'Exo', sans-serif;
     margin: 0 auto;
-    
-    color: #FFFFFF;
-}
-
-.container, 
-header,
-.weatherPage{
     background-color: #1b173d;
+    color: #FFFFFF;
 }
 
 
 
 nav{
     padding: 1rem;
-    border-bottom: 1px solid #f70008;
 }
 
 nav ul {
@@ -38,6 +31,8 @@ nav a{
 .pictureOfDay{
     margin-top: 3rem;
 }
+
+
 
 img{
     max-width: 1000px;

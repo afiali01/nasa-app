@@ -11,8 +11,8 @@ const NavBar = function(){
                         </Link>
                     </li>
                     <li>
-                        <Link href="/weatherPage">
-                            <a>Mars Weather</a>
+                        <Link href="/home">
+                            <a>other link</a>
                         </Link>
                     </li>
                 </ul>

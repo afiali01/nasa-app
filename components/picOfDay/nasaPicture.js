@@ -13,11 +13,18 @@ const NasaPicture = function(){
     if(!photoData) return <div/>
 
     return(
-        <div>
+        <div className="pictureOfDay">
             <h1>Picture of the Day</h1>
-            <div>
+            
+            <div className="photoData">
                 <h2>{photoData.title}</h2>
-                <img src={photoData.url} alt={photoData.title} />
+                <div className="pic-container">
+                    <img src={photoData.url} alt={photoData.title} />
+                </div>
+
+                <div className="text-container">
+                    <p></p>
+                </div>
             </div>
         </div>
     )

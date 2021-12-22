@@ -3,7 +3,7 @@ import WeatherPage from "../components/marsWeather/weatherPage"
 
 export default function Home() {
     return (
-    <div>
+    <div className="container">
         <NavBar/>
         <WeatherPage />
     </div>

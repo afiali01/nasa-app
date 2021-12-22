@@ -15,11 +15,6 @@ const NavBar = function(){
                             <a>Mars Weather</a>
                         </Link>
                     </li>
-                    <li>
-                        <Link href="/picOfDayPage">
-                            <a>Picture of the Day</a>
-                        </Link>
-                    </li>
                 </ul>
             </nav>
         </header>
